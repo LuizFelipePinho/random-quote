@@ -37,7 +37,7 @@ export default function Wrapper({ color, handleColor, quote }) {
           </span>
         
       </div>
-      <div id="author" style={{ color: color }}>
+      <div id="author" style={{ color: color, transition: "opacity 0.5s ease-out", opacity: isHidden }}>
         {quote.autor}
       </div>
       <div className="buttons">
