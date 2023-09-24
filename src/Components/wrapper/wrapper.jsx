@@ -2,22 +2,24 @@ import { useEffect, useState } from "react";
 import "../../Components/wrapper/wrapper.scss";
 export default function Wrapper({ color, handleColor, quote }) {
 
+  // quando clicar adiciona o opacity 1 e quando chegar no effect muda pra 0
 
-  // const [isHidden, setisHidden] = useState(false); 
+  const [isHidden, setisHidden] = useState(1); 
 
   const handleColorTransition = () => {
-    // !isHidden ? setisHidden(true) : setisHidden(false); 
+    isHidden === 1 ? setisHidden(0) : setisHidden(1); 
     handleColor(); 
 
   }
   useEffect(() => {
-    console.log(quote);
+    setisHidden(1); 
+
   }, [quote])
   
 
   return (
     <div id="quote-box">
-      <div id="quote-text"  >
+      <div id="quote-text" style={{transition: "opacity 0.5s ease-out", opacity: isHidden}} >
        
           <svg
             xmlns="http://www.w3.org/2000/svg"

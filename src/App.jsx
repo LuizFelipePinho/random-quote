@@ -23,9 +23,9 @@ function App() {
   }, [])
 
   const handleColor = async () => {
-    setColor(getRandomColor()); 
     const quoteData = await getRandomQuote();
     setQuote(quoteData);
+    setColor(getRandomColor()); 
 
   }
 
