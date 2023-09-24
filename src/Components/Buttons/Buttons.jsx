@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
+import './buttons.scss'
 import replaceSpacesPercentage from "../../service/replaceSpacesPercentage";
 export default function Buttons({ color, quote, handleColorTransition }) {
 
