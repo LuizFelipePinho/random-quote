@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
+import replaceSpacesPercentage from "../../service/replaceSpacesPercentage";
+export default function Buttons({ color, quote, handleColorTransition }) {
 
-export default function Buttons({ color, handleColorTransition }) {
+  const [quoteFormatted, setQuotoFormatted] = useState("");
+
+  useEffect(() => {
+    const citationTweet = replaceSpacesPercentage(quote); 
+    setQuotoFormatted(citationTweet)
+  }, [quote])
+  
+
   return (
     <div className="buttons">
-      <a id="tweet-quote" href="#" style={{ backgroundColor: color }}>
+      <a 
+      id="tweet-quote"
+      href={`https://twitter.com/intent/tweet?text=${quoteFormatted}`}
+      target="_blank" 
+      style={{ backgroundColor: color }}>
         <img
           src="/imgs/twitter.svg"
           className="icon-twitter"
@@ -24,5 +37,6 @@ export default function Buttons({ color, handleColorTransition }) {
 
 Text.propTypes = {
   color: PropTypes.string.isRequired,
+  quote: PropTypes.object.isRequired, 
   handleColorTransition: PropTypes.func.isRequired,
 };

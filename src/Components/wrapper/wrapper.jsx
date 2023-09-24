@@ -27,7 +27,7 @@ function Wrapper({ color, handleColor, handleQuote, quote }) {
         {quote.author}
       </Author>
 
-      <Buttons color={color} handleColorTransition={handleColorTransition} />
+      <Buttons color={color} quote={quote} handleColorTransition={handleColorTransition} />
     </div>
   );
 }
