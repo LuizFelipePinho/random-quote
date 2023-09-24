@@ -15,32 +15,6 @@
 
 }
 
-#text {
-  font-size: 2rem;
-  font-weight: 500;
-  // transition: opacity 1s ease-in;
-  transition: opacity 0.5s ease-out; 
-  opacity: 1; // aparece
-  // opacity: 0; // desaparece
-
-}
-
-.hidden {
-  transition: opacity 0.5s ease-out; 
-  opacity: 0;   
-}
-
-.visible {
-  transition: opacity 0.5s ease-out; 
-  opacity: 1;   
-
-}
-
-.iconQuote {
-  width: 6vmin;
-  margin-right: 3%;
-}
-
 #quote-text,
 #author,
 .buttons {
@@ -50,41 +24,5 @@
 
 }
 
-#author::before {
-  content: "-";
-  margin-right: 1%;
-}
 
-#author {
-  display: flex;
-  justify-content: end;
-  font-weight: 200;
-}
 
-.buttons {
-  display: flex;
-  justify-content: space-between;
-}
-
-#new-quote {
-  font-size: 1rem;
-  padding: 2% 3%;
-  border: none;
-  border-radius: 1%;
-  cursor: pointer;
-  border-radius: 3%;
-  color: #FFFFFF;
-  font-weight: 500;
-
-}
-
-#tweet-quote {
-  width: 8%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10%;
-}
-.icon-twitter {
-  width: 70%;
-}

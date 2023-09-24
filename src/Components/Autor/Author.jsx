@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./author.scss"
 
 export default function Author({ isHidden, color, children }) {
   return (

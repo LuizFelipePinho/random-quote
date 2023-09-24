@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./text.scss"
 
 function Text({ isHidden, color, children }) {
   return (
