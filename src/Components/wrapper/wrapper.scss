@@ -3,6 +3,9 @@
 * {
   font-family: "Raleway", sans-serif;
 }
+
+
+
 #quote-box {
   background-color: #ffffff;
   display: flex;
@@ -25,4 +28,15 @@
 }
 
 
+@media (max-width: 900px) {
+  #quote-box {
+  width: 80vw;
+  }; 
 
+  #quote-text,
+  #author,
+  .buttons { 
+  margin-bottom: 3%;
+
+  }
+}
