@@ -22,16 +22,17 @@ function App() {
     fetchData(); 
   }, [])
 
-  const handleColor = async () => {
-    const quoteData = await getRandomQuote();
-    setQuote(quoteData);
+  const handleColor =  () => {
     setColor(getRandomColor()); 
 
   }
-
+  const handleQuote = async () => {
+    const quoteData = await getRandomQuote();
+    setQuote(quoteData);
+  }
   return (
     <div id="main" style={{ backgroundColor: color }}>
-     <Wrapper color={color} handleColor={handleColor} quote={quote}> 
+     <Wrapper color={color} handleColor={handleColor} handleQuote={handleQuote} quote={quote}> 
      </Wrapper>
     </div>
   )
