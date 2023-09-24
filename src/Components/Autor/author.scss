@@ -1,0 +1,22 @@
+#author::before {
+  content: "-";
+  margin-right: 1%;
+}
+
+#author {
+  display: flex;
+  justify-content: end;
+  font-weight: 200;
+  font-size: 3vmin;
+
+}
+
+.hidden {
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+}
+
+.visible {
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+#text {
+  font-size: 5vmin;
+  font-weight: 500;
+  transition: opacity 0.5s ease-out; 
+  opacity: 1; 
+
+}
+
+.iconQuote {
+  width: 6vmin;
+  margin-right: 3%;
+}
+
+.hidden {
+  transition: opacity 0.5s ease-out; 
+  opacity: 0;   
+}
+
+.visible {
+  transition: opacity 0.5s ease-out; 
+  opacity: 1;   
+
+}
