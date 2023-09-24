@@ -3,90 +3,90 @@
 const getRandomQuote =  () => {
   const citacoesMotivacionais = [
     {
-      citacao: "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
-      autor: "Robert Collier",
+      citation: "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
+      author: "Robert Collier",
     },
     {
-      citacao: "Acredite que você pode e você já está no meio do caminho.",
-      autor: "Theodore Roosevelt",
+      citation: "Acredite que você pode e você já está no meio do caminho.",
+      author: "Theodore Roosevelt",
     },
     {
-      citacao:
+      citation:
         "O único caminho para fazer um excelente trabalho é amar o que você faz.",
-      autor: "Steve Jobs",
+        author: "Steve Jobs",
     },
     {
-      citacao: "A persistência é o caminho do êxito.",
-      autor: "Charles Chaplin",
+      citation: "A persistência é o caminho do êxito.",
+      author: "Charles Chaplin",
     },
     {
-      citacao:
+      citation:
         "O sucesso é a consequência do trabalho duro, aprendizado dos fracassos, lealdade e persistência.",
-      autor: "Colin Powell",
+        author: "Colin Powell",
     },
     {
-      citacao:
+      citation:
         "O maior risco é não correr nenhum risco. Em um mundo em constante mudança, não fazer nada também é arriscado.",
-      autor: "Mark Zuckerberg",
+        author: "Mark Zuckerberg",
     },
     {
-      citacao:
+      citation:
         "O sucesso não é a chave para a felicidade. A felicidade é a chave para o sucesso. Se você ama o que está fazendo, você será bem-sucedido.",
-      autor: "Albert Schweitzer",
+        author: "Albert Schweitzer",
     },
     {
-      citacao:
+      citation:
         "A oportunidade muitas vezes se apresenta disfarçada de trabalho árduo e é por isso que a maioria das pessoas não a reconhece.",
-      autor: "Ann Landers",
+        author: "Ann Landers",
     },
     {
-      citacao: "Não importa o quão devagar você vá, desde que você não pare.",
-      autor: "Confúcio",
+      citation: "Não importa o quão devagar você vá, desde que você não pare.",
+      author: "Confúcio",
     },
     {
-      citacao:
+      citation:
         "O otimismo é a fé em ação. Nada se pode fazer sem esperança e confiança.",
-      autor: "Helen Keller",
+        author: "Helen Keller",
     },
     {
-      citacao: "Você é capaz de mais do que imagina, mas é preciso acreditar nisso.",
-      autor: "Autor Desconhecido",
+      citation: "Você é capaz de mais do que imagina, mas é preciso acreditar nisso.",
+      author: "Autor Desconhecido",
     },
     {
-      citacao: "A motivação é o que te faz começar. O hábito é o que te faz continuar.",
-      autor: "Jim Ryun",
+      citation: "A motivação é o que te faz começar. O hábito é o que te faz continuar.",
+      author: "Jim Ryun",
     },
     {
-      citacao: "Não se preocupe com o fracasso, preocupe-se com as chances que você perde quando nem tenta.",
-      autor: "Jack Canfield",
+      citation: "Não se preocupe com o fracasso, preocupe-se com as chances que você perde quando nem tenta.",
+      author: "Jack Canfield",
     },
     {
-      citacao: "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
-      autor: "Robert Collier",
+      citation: "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
+      author: "Robert Collier",
     },
     {
-      citacao: "Quanto maior a dificuldade, maior é a glória.",
-      autor: "Pierre Corneille",
+      citation: "Quanto maior a dificuldade, maior é a glória.",
+      author: "Pierre Corneille",
     },
     {
-      citacao: "Você nunca é velho demais para definir outra meta ou sonhar um novo sonho.",
-      autor: "C.S. Lewis",
+      citation: "Você nunca é velho demais para definir outra meta ou sonhar um novo sonho.",
+      author: "C.S. Lewis",
     },
     {
-      citacao: "Toda realização começa com a decisão de tentar.",
-      autor: "John F. Kennedy",
+      citation: "Toda realização começa com a decisão de tentar.",
+      author: "John F. Kennedy",
     },
     {
-      citacao: "Seja a mudança que você deseja ver no mundo.",
-      autor: "Mahatma Gandhi",
+      citation: "Seja a mudança que você deseja ver no mundo.",
+      author: "Mahatma Gandhi",
     },
     {
-      citacao: "O sucesso é caminhar de fracasso em fracasso sem perder o entusiasmo.",
-      autor: "Winston Churchill",
+      citation: "O sucesso é caminhar de fracasso em fracasso sem perder o entusiasmo.",
+      author: "Winston Churchill",
     },
     {
-      citacao: "O mundo pertence aos otimistas.",
-      autor: "J. Robert Oppenheimer",
+      citation: "O mundo pertence aos otimistas.",
+      author: "J. Robert Oppenheimer",
     },
   ];
 
