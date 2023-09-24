@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "../../Components/wrapper/wrapper.scss";
 export default function Wrapper({ color, handleColor, quote }) {
 
-  // quando clicar adiciona o opacity 1 e quando chegar no effect muda pra 0
 
   const [isHidden, setisHidden] = useState(1); 
 
